@@ -125,7 +125,7 @@ docker run jenkins/jenkins:lts-jdk11 --version
 This will show the Jenkins version, the same as when you run Jenkins from an executable war.
 
 You can also define Jenkins arguments via `JENKINS_OPTS`. This is useful for customizing arguments to the jenkins
-launcher in a derived Jenkins image. The following sample Dockerfile uses this option
+launcher in a derived Jenkins image . The following sample Dockerfile uses this option
 to force use of HTTPS with a certificate included in the image.
 
 ```
