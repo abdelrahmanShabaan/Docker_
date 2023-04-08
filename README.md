@@ -94,7 +94,7 @@ JVM options specifically for the Jenkins controller should be set through `JENKI
 
 # Configuring logging
 
-Jenkins logging can be configured through a properties file and `java.util.logging.config.file` Java property.
+Jenkins logging can be configured through a properties file and `java.util.logging.config.file` Java property..
 For example:
 
 ```
